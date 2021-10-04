@@ -4,7 +4,9 @@ import {
   MailOutline,
   PermIdentity,
   PhoneAndroid,
+  Publish,
 } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 import profileimg from '../../images/profileimg.jpg';
 import './user.css';
 
@@ -13,7 +15,9 @@ const User = () => {
     <main className='user'>
       <div className='userTitleContainer'>
         <h1 className='userTitle'>edit user</h1>
-        <button className='userAddButton'>create</button>
+        <Link to='/newUser'>
+          <button className='userAddButton'>create</button>
+        </Link>
       </div>
       <section className='userContainer'>
         <div className='userShow'>
@@ -94,7 +98,16 @@ const User = () => {
                 />
               </div>
             </div>
-            <div className='userUpdateRight'></div>
+            <div className='userUpdateRight'>
+              <div className='userUpdateUpload'>
+                <img src={profileimg} alt='upload' className='userUpdateImg' />
+                <label htmlFor='file'>
+                  <Publish className='userUpdateIcon' />
+                </label>
+                <input type='file' id='file' style={{ display: 'none' }} />
+              </div>
+              <button className='userUpdateButton'>update</button>
+            </div>
           </form>
         </section>
       </section>
