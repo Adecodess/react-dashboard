@@ -60,65 +60,163 @@ export const userRows = [
   {
     id: 2,
     username: 'Jon Snow',
-    //   avatar: { profileimg },
     email: 'jon@gmail.com',
+    //   avatar: { profileimg },
+
     status: 'active',
     transaction: '$120.00',
   },
   {
     id: 3,
     username: 'Jon Snow',
-    //   avatar: { profileimg },
     email: 'jon@gmail.com',
+    //   avatar: { profileimg },
+
     status: 'active',
     transaction: '$120.00',
   },
   {
     id: 4,
-    username: 'jon Snow',
-    //   avatar: { profileimg },
+    username: 'Jon Snow',
     email: 'jon@gmail.com',
+    //   avatar: { profileimg },
+    stock: 123,
     status: 'active',
     transaction: '$120.00',
   },
   {
-    id: 6,
+    id: 5,
     username: 'Jon Snow',
     //   avatar: { profileimg },
-    email: 'jon@gmail.com',
+
     status: 'active',
     transaction: '$120.00',
+  },
+
+  {
+    id: 6,
+    username: 'Jon Snow',
+    email: 'jon@gmail.com',
+    //   avatar: { profileimg },
+
+    status: 'active',
+    price: '$120.00',
   },
   {
     id: 7,
     username: 'Jon Snow',
-    //   avatar: { profileimg },
     email: 'jon@gmail.com',
+    //   avatar: { profileimg }stock: 123,
     status: 'active',
     transaction: '$120.00',
   },
   {
     id: 8,
     username: 'Jon Snow',
-    //   avatar: { profileimg },
     email: 'jon@gmail.com',
+    //   avatar: { profileimg },
+
     status: 'active',
     transaction: '$120.00',
   },
   {
     id: 9,
-    username: 'Jon Snow',
-    //   avatar: { profileimg },
+    username: ' Jon Snow',
     email: 'jon@gmail.com',
+    //   avatar: { profileimg },
+
     status: 'active',
     transaction: '$120.00',
   },
   {
     id: 10,
     username: 'Jon Snow',
-    //   avatar: { profileimg },
     email: 'jon@gmail.com',
+    //   avatar: { profileimg },
     status: 'active',
     transaction: '$120.00',
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: 'Jon Snow',
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 2,
+    name: 'Jon Snow',
+
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 3,
+    name: 'Jon Snow',
+
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 4,
+    name: 'jon Snow',
+
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 5,
+    name: 'jon Snow',
+
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+
+  {
+    id: 6,
+    name: 'Jon Snow',
+    //   avatar: { profileimg },
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 7,
+    name: 'Jon Snow',
+    //   avatar: { profileimg },
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 8,
+    name: 'Jon Snow',
+    //   avatar: { profileimg },
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 9,
+    name: 'Jon Snow',
+    //   avatar: { profileimg },
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 10,
+    name: 'Jon Snow',
+    //   avatar: { profileimg },
+    stock: 123,
+    status: 'active',
+    price: '$120.00',
   },
 ];
