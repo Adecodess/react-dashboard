@@ -14,7 +14,7 @@ const Home = () => {
         data={userData}
         title='User Analytics'
         grid
-        dataKey='Active User '
+        dataKey='Active User'
       />
       <div className='homeWidgets'>
         <WidgetSm />
